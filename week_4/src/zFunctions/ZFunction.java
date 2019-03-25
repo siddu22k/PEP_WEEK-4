@@ -1,10 +1,20 @@
+/*
+ * Data science is very popular now. A lot of universities have courses about it. A lot of companies have open data science positions. So it's quite important to know how to work with statistics. And this task can help you to make first step into statistics.
+
+Lets define S as all strings of the length n consisting of letters from the some alphabet of the size a. For each string s lets define  - maximum among all z-function values of the string s. Your task is calculate  modulo . 
+
+You can read more about z-function on https://e-maxx-eng.appspot.com/string/z-function.html. Also in this problem we define .
+ */
+
+
+
 package zFunctions;
 import java.util.*;
 
 public class ZFunction {
 	
 	String alpha = "abcdefghijklmnopqrstuvwxyz";
-	ArrayList<Integer> maxis = new ArrayList<Integer>();
+	ArrayList<Integer> maxis = new ArrayList<>();
 	
 	public int maxZed(String s)
 	{

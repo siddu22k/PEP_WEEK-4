@@ -1,3 +1,15 @@
+/*
+ * Protection of the Indian border and safe transport of items from one point to another along the border are the paramount jobs for the Indian army. However they need some information about the protection status along the length of the border. The border can be viewed as the real x-axis. Along the axis, Indian army has N checkpoints for lookout. 
+
+We know that each checkpoint is located at an integer location xi. Each checkpoint must have a fleet of armed men which are responsible for guarding the neighboring areas of the checkpoint and provide military assistance of all kinds. The size of the fleet is based on the location of the checkpoint and how active the region is for terrorist activities. 
+
+Given the number of armed men assigned at the ith checkpoint, as pi, this information is available for all checkpoints. 
+With the skills of the armed men, it is known that if for the ith checkpoint, the length on the x axis that they can defend is a closed interval [xi-pi, xi+pi].
+
+Now, your task is to transport some military items from position S to the end position E on the x-axis. 
+ */
+
+
 package indianArmy;
 
 public class IndianArmy {
@@ -37,7 +49,8 @@ public class IndianArmy {
 		
 		for ( int i=start_end[1];i<=start_end[2];i++)
 		{
-			int j=0,tp=0;
+			int j=0;
+			int tp=0;
 			while(j<start_end[0])
 			{
 				if( i>=start[j] && i<=end[j])

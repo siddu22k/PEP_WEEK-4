@@ -1,8 +1,16 @@
+/*There is an infinite series of bulbs indexed from 1. And there are 40 switches indexed from 1 to 40. Switch with index x is connected to the bulbs with indexes that are multiple of x. i.e switch 2 is connected to bulb 4, 6, 8 ....
+
+You can easily observe that some bulbs are connected to multiple switches and some are not connected to any switch.
+
+Chotu is playing with these switches, he wants to know the Kth glowing bulb from the start if certain switches are in ON state. If any of the switch is ON, connected to any bulb then bulb starts glowing. But chotu has special fond of prime numbers so he only puts prime indexed switches ON. */
+
+
+
+
 package glowingBulbs;
 
 import java.util.ArrayList;
 import java.util.*;
-
 
 
 public class GlowingBulb {

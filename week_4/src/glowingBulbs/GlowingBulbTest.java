@@ -17,7 +17,7 @@ public class GlowingBulbTest {
 		
 		int[] answer = new int[] {8,15,26866};
 		
-		int output[] = test.kthBulb(noOfCases, input, position);
+		int[] output = test.kthBulb(noOfCases, input, position);
 		
 		assertArrayEquals(answer,output);
 		
